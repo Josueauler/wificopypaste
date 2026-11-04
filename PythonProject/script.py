@@ -1,20 +1,5 @@
 #!/usr/bin/env python3
-"""
-Espelhar celular — assistente em customtkinter para scrcpy + adb (macOS).
 
-Fluxo:
-  0. Tela de Boas-vindas (Glass)
-  1. Aparelho: escolher um aparelho salvo ou parear um novo
-  2. Preparar ferramentas (localizar scrcpy/adb e liberar o bloqueio do macOS)
-  3. Parear com o celular (depuração sem fio) — só para aparelhos novos
-  4. Conectar (Wi-Fi ou USB) — aparelhos salvos pedem apenas a porta
-  5. Espelhamento
-  6. Contribua: QR code para apoiar o desenvolvedor
-  7. Dash: detalhes do aparelho conectado
-
-Instalar:  pip3 install customtkinter pillow
-Executar:  python3 espelhar_celular_ctk.py
-"""
 import json
 import os
 import platform
